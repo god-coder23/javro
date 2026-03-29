@@ -1,0 +1,29 @@
+import React from 'react'
+import logo from '../images/logo_bg_remove.png';
+
+const NAVBAR_HEIGHT = 64 
+
+const Navbar = () => {
+  return (
+    <>
+      <div className="fixed top-3 left-0 right-0 z-50 bg-transparent">
+        <div className="flex justify-between items-center h-16 px-6">
+          <div className='p-30'>
+            <img className='h-20 w-20' src={logo} alt="logo" />
+          </div>
+          <div className='flex flex-row gap-8 items-center'>
+            <h1 className='text-white/80'>Services</h1>
+            <h1 className='text-white/80'>How it Works</h1>
+            <div className='bg-yellow-500 h-10 px-4 flex justify-center items-center rounded-3xl'>
+              <button className='text-black font-semibold'>Get the app</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ height: NAVBAR_HEIGHT }} aria-hidden="true" />
+    </>
+  )
+}
+
+export default Navbar

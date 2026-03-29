@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body{
+    background-color: #050505;
+}
+::selection {
+  background-color: #FFC107; 
+  color: #000000;          
+}
+button:hover{
+    cursor: pointer;
+}
