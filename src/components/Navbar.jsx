@@ -16,9 +16,9 @@ const Navbar = () => {
             <img className='h-20 w-20' src={logo} alt="logo" />
           </div>
           <div className='flex flex-row gap-8 items-center'>
-            <h1 onClick={() => scrollToSection("services")}  className='text-white/80 cursor-pointer'>Services</h1>
-            <h1 onClick={() => scrollToSection("howwork")} className='text-white/80 cursor-pointer'>How it Works</h1>
-            <div className='bg-yellow-500 h-10 px-4 flex justify-center items-center rounded-3xl'>
+            <h1 onClick={() => scrollToSection("services")}  className='text-white/80 cursor-pointer hover:text-yellow-500'>Services</h1>
+            <h1 onClick={() => scrollToSection("howwork")} className='text-white/80 cursor-pointer hover:text-yellow-500'>How it Works</h1>
+            <div className='bg-yellow-500 h-10 px-4 flex justify-center items-center rounded-3xl hover:bg-amber-300 hover:scale-105 transition duration-400 ease-in-out'>
               <button onClick={()=>scrollToSection("getapp")} className='text-black font-semibold'>Get the app</button>
             </div>
           </div>
