@@ -9,3 +9,32 @@ body{
 button:hover{
     cursor: pointer;
 }
+@keyframes shine {
+    0%{
+        transform: translate(-100%, -100%) rotate(25deg);
+    }
+    100%{
+        transform: translate(100%, 100%) rotate(25deg);
+    }
+}
+.card-shine {
+    position: relative;
+    overflow: hidden;
+}
+.card-shine::before {
+    content: "";
+    position: absolute;
+    inset: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        120deg,
+        transparent 40%,
+        rgba(255, 255, 255, 0.2) 50%,
+        transparent 70%
+    );
+    transform: translate(-100%, -100%) rotate(25deg);
+    animation: shine 2.5s linear infinite;
+    pointer-events: none;
+    animation-delay: 1000ms;
+}

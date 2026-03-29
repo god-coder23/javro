@@ -3,7 +3,7 @@ import { Clock, Shield, Zap } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 const LeftContent = () => {
   return (
-    <div className='py-7 px-35 flex flex-col gap-6'>
+    <div id='firstpage' className='py-7 px-35 flex flex-col gap-6'>
         <div className='flex flex-row gap-2 h-8 w-60 bg-white/5 justify-center items-center rounded-3xl ring-1 ring-white/20'>
             <Zap color='#ffb803' size={20} />
         <h1 className='text-white/80 text-sm '>The Future of Instant Rides</h1>
