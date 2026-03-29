@@ -9,7 +9,7 @@ const Navbar = () => {
         el?.scrollIntoView({ behavior: "smooth" });
     };
   return (
-    <>
+    <div>
       <div className="fixed top-3 left-0 right-0 z-50 bg-transparent">
         <div className="flex justify-between items-center h-16 px-6">
           <div className='p-30 cursor-pointer' onClick={()=> scrollToSection("firstpage")}>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
       <div style={{ height: NAVBAR_HEIGHT }} aria-hidden="true" />
-    </>
+    </div>
   )
 }
 
