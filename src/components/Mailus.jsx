@@ -26,7 +26,7 @@ const Mailus = () => {
         </p>
 
         {/* Newsletter Form */}
-        <div className='w-full max-w-md border-2 border-white/15 hover:border-yellow-500/50 bg-black/50 backdrop-blur rounded-3xl px-6 py-6 transition duration-300'>
+        <div className='w-full max-w-md border-2 border-white/15 hover:border-yellow-500/50 bg-black/50 backdrop-blur rounded-4xl px-6 py-6 transition duration-300'>
           <form 
             onSubmit={()=>{
                 window.alert("Be ready to unlock next level booking!")
@@ -41,7 +41,7 @@ const Mailus = () => {
               id='name'
               type="text" 
               placeholder='Enter your name' 
-              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-lg outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
+              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-3xl outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
             />
 
             <input 
@@ -50,7 +50,7 @@ const Mailus = () => {
               id='number'
               type="tel" 
               placeholder='Enter your number' 
-              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-lg outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
+              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-3xl outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
             />
 
             <input 
@@ -59,12 +59,12 @@ const Mailus = () => {
               id='email'
               type="email" 
               placeholder='Enter your email' 
-              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-lg outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
+              className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-3xl outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
             />
 
             <button 
               type='submit'
-              className='w-full mt-3 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-lg transition duration-300 flex items-center justify-center gap-2'
+              className='w-full mt-3 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-3xl transition duration-300 flex items-center justify-center gap-2'
             >
               Notify Me
               <ArrowRight size={20} />
