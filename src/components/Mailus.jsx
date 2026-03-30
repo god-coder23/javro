@@ -49,7 +49,7 @@ const Mailus = () => {
               name='number'
               id='number'
               type="tel" 
-              placeholder='Enter your number' 
+              placeholder='Enter your Phone Number' 
               className='w-full px-4 py-3 bg-zinc-900/50 border border-white/20 text-white placeholder-zinc-600 rounded-3xl outline-none transition duration-300 hover:border-yellow-500/30 focus:border-yellow-500'
             />
 
