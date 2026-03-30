@@ -12,24 +12,24 @@ const LeftContent = () => {
             <Zap color='#ffb803' size={20} />
         <h1 className='text-white/80 text-sm '>The Future of Instant Rides</h1>
         </div>
-        <div className='text-white text-5xl lg:text-7xl md:text-5xl font-bold lg:leading-[6rem] sm:leading-snug'>
+        <div className='text-white text-4xl sm:text-5xl lg:text-7xl font-bold lg:leading-[6rem] leading-tight'>
             <h1 className=''>Instantly Book <br /> <span> Share <span className='text-yellow-500'> Autos & </span></span> <br /> <span className='text-yellow-500'>Bikes</span></h1>
         </div>
         <div className='leading-[2.5rem] max-w-xl text-gray-400 lg:text-xl md:text-lg sm:text-sm sm:flex sm:justify-center sm:items-center'>
             <p className=''>Javro connects you with Autos, Shared Autos, E-Rickshaws, and Bikes instantly. Experience reliable, fast, and affordable rides right at your fingertips.</p>
         </div>
-        <div className='flex flex-row gap-5 items-center pb-9 w-[100%] border-b border-white/20'>
-            <div className='h-15 w-50 bg-yellow-500 flex justify-center items-center rounded-4xl hover:scale-110 transition duration-300 ease-in-out hover:bg-yellow-400'>
+        <div className='flex flex-col sm:flex-row gap-4 sm:gap-5 items-stretch sm:items-center pb-9 w-full border-b border-white/20'>
+            <div className='h-14 sm:h-15 w-full sm:w-50 bg-yellow-500 flex justify-center items-center rounded-4xl hover:scale-105 transition duration-300 ease-in-out hover:bg-yellow-400'>
                 <div onClick={()=>scrollToSection("getapp")} className='flex flex-row gap-1 items-center'>
-                    <button className='text-xl font-semibold'>Download App</button>
+                    <button className='text-lg sm:text-xl font-semibold'>Download App</button>
                     <ArrowRight size={20} />
                 </div>
             </div>
-            <div onClick={() => scrollToSection("services")} className='w-40 h-15 rounded-4xl font-[system-ui] bg-white/15 flex justify-center items-center ring-1 ring-white/25 backdrop-blur-sm hover:scale-110 transition duration-300 ease-in-out hover:bg-white/20'>
+            <div onClick={() => scrollToSection("services")} className='w-full sm:w-40 h-14 sm:h-15 rounded-4xl font-[system-ui] bg-white/15 flex justify-center items-center ring-1 ring-white/25 backdrop-blur-sm hover:scale-105 transition duration-300 ease-in-out hover:bg-white/20'>
                 <button className='font-semibold text-white font-[system-ui]'>Learn More</button>
             </div>
         </div>
-        <div className='flex flex-row gap-15'>
+        <div className='flex flex-row gap-6 sm:gap-15 flex-wrap'>
             <div className='gap-2 flex flex-col'>
                 <Shield color='#f0b100' />
                 <h1 className='text-white font-semibold'>Safe & secure</h1>

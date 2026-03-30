@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className='flex flex-row gap-10'>
+      <div className='flex flex-col lg:flex-row gap-10'>
         <LeftContent />
         <RightSide />
       </div>
